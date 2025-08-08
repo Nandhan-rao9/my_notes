@@ -1,0 +1,10 @@
+{
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": "src/.*",
+        "cmd": "git add -A && git diff --cached --quiet || (git commit -m \"Auto-commit (vscode) at ${datetime}\" && git push origin main)"
+      }
+    ]
+  }
+}

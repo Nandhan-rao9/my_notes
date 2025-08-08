@@ -34,10 +34,10 @@ function handleUpdateNote(updated) {
   );
   setEditingNote(null); // close modal
 }
-  function dummy(){
-    console.log("hi");
-  }
-
+//powershell -WindowStyle Minimized -ExecutionPolicy Bypass -File "C:\Users\nandh\Desktop\watchpush.ps1"
+// checking auto push
+// checking run on save
+// did it work ?
 function filterNotes(notes, search) {
   if (!search.trim()) return notes;
   return notes.filter(note =>
