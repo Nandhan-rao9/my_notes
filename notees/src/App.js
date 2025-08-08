@@ -34,6 +34,9 @@ function handleUpdateNote(updated) {
   );
   setEditingNote(null); // close modal
 }
+  function dummy(){
+    console.log("hi");
+  }
 
 function filterNotes(notes, search) {
   if (!search.trim()) return notes;
@@ -67,3 +70,5 @@ function filterNotes(notes, search) {
 }
 
 export default App;
+
+//checking auto commit
